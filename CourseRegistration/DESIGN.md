@@ -109,3 +109,20 @@ Eligibility changes after waitlisting are not supported
 .NET 5 is out of support and should be upgraded for maintained environments
 13. Future Improvements
 Potential improvements outside the current scope include persistent storage, structured logging, API endpoints, and support for multiple course offerings.
+
+## Waitlist Eligibility Policy
+
+Prerequisite eligibility is checked at the time of
+the initial enrollment request.
+
+Ineligible learners are rejected immediately and
+are not added to the waitlist.
+
+The system assumes eligibility remains unchanged
+while a learner is waiting.
+
+Therefore, an ineligible learner cannot reach
+the front of the waitlist under this policy.
+
+If eligibility changes after joining the waitlist,
+revalidation would be required in a future version.
